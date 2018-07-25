@@ -1,0 +1,209 @@
+
+BeeBus
+
+
+
+
+==========+++++====================
+8:24 PM 7/24/2018
+
+
+cody@LAPTOP-TO4068AG MINGW64 /
+$ cd
+
+cody@LAPTOP-TO4068AG MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+code
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+git
+Google
+IdeaProjects
+IntelGraphicsProfiles
+Links
+Local\ Settings
+mercurial.ini
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{55cb8f44-66a4-11e8-b80d-a81e841a73e0}.TxR.0.regtrans-ms
+NTUSER.DAT{55cb8f44-66a4-11e8-b80d-a81e841a73e0}.TxR.1.regtrans-ms
+NTUSER.DAT{55cb8f44-66a4-11e8-b80d-a81e841a73e0}.TxR.2.regtrans-ms
+NTUSER.DAT{55cb8f44-66a4-11e8-b80d-a81e841a73e0}.TxR.blf
+NTUSER.DAT{55cb8f45-66a4-11e8-b80d-a81e841a73e0}.TM.blf
+NTUSER.DAT{55cb8f45-66a4-11e8-b80d-a81e841a73e0}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{55cb8f45-66a4-11e8-b80d-a81e841a73e0}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive
+PicStream
+Pictures
+PrintHood
+Recent
+RemovedDOTcredntialFile
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+workspace
+
+cody@LAPTOP-TO4068AG MINGW64 ~
+$ cd git
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$ cd gitjava
+bash: cd: gitjava: No such file or directory
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$ dir
+birthday  spring2016-module1-hannah-mungamuri-442781  spring2017mar
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$ cd..
+bash: cd..: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$ git cd..
+git: 'cd..' is not a git command. See 'git --help'.
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$ git cd..
+git: 'cd..' is not a git command. See 'git --help'.
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$ git cd ..
+git: 'cd' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$
+
+cody@LAPTOP-TO4068AG MINGW64 ~/git
+$ cd ..
+
+cody@LAPTOP-TO4068AG MINGW64 ~
+$ cd Downloads
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads
+$ cd git
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git
+$ dir
+1.JPG                   cmd              LICENSE.txt        tmp
+1index                  dev              microblog          unins000.dat
+1myshopGitCommands.txt  etc              mingw64            unins000.exe
+1techExprmnt            git-bash.exe     myshop             unins000.msg
+2.JPG                   git-cmd.exe      oldNewLists.html   usr
+4.JPG                   gitcode          Practice           watch.html
+BBuckSourceTree2017     gitjava          ReleaseNotes.html
+bin                     lessImpDwnloads  TA2017LC101
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git
+$ cd gitjava
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/gitjava (Jan)
+$ dir
+BeeBus  README.md  SP2017  spring2017
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/gitjava (Jan)
+$ cd BeeBus
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/gitjava/BeeBus (Jan)
+$ dir
+README.txt
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/gitjava/BeeBus (Jan)
+$ git status
+On branch Jan
+Your branch is ahead of 'origin/Jan' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   ../spring2017/spring2017 (new commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ./
+        ../SP2017/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/gitjava/BeeBus (Jan)
+$ cd ..
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/gitjava (Jan)
+$ cd ..
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git
+$ dir
+1.JPG                   bin           lessImpDwnloads    TA2017LC101
+1index                  cmd           LICENSE.txt        tmp
+1myshopGitCommands.txt  dev           microblog          unins000.dat
+1techExprmnt            etc           mingw64            unins000.exe
+2.JPG                   git-bash.exe  myshop             unins000.msg
+4.JPG                   git-cmd.exe   oldNewLists.html   usr
+BBuckSourceTree2017     gitcode       Practice           watch.html
+BeeBus                  gitjava       ReleaseNotes.html
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git
+$ cd BeeBus
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus
+$ git init
+Initialized empty Git repository in C:/Users/cody/Downloads/Git/BeeBus/.git/
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus (master)
+$ git add .
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus (master)
+$ git commit -m "initial commit"
+[master (root-commit) 529bb9b] initial commit
+ 1 file changed, 49 insertions(+)
+ create mode 100644 README.txt
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus (master)
+$ remote add origin https://github.com/HannahMoses/BeeBus.git
+bash: remote: command not found
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus (master)
+$ git remote add origin https://github.com/HannahMoses/BeeBus.git
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus (master)
+$ git push origin master
+fatal: AggregateException encountered.
+   One or more errors occurred.
+Username for 'https://github.com': hannahmoses612@gmail.com
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.08 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/HannahMoses/BeeBus.git
+ * [new branch]      master -> master
+
+cody@LAPTOP-TO4068AG MINGW64 ~/Downloads/git/BeeBus (master)
+$
+=====++++++++++=====8:25 PM 7/24/2018===========
+
+
